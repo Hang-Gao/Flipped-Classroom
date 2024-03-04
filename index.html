@@ -1,10 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>我的应用支持页面</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>项目名称</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .header {
+        background-color: #f8f9fa;
+        padding: 20px;
+        font-size: 24px;
+        color: #333;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px;
+    }
+    .gallery img {
+        margin: 10px;
+        width: calc(25% - 20px);
+        height: auto;
+    }
+    .footer {
+        background-color: #f8f9fa;
+        color: #333;
+        padding: 20px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
 </head>
 <body>
-    <h1>欢迎来到我的应用支持页面</h1>
-    <p>如果你有任何问题，请发送邮件至：support@example.com</p>
+
+<div class="header">
+    项目名称
+</div>
+
+<div class="gallery">
+    <img src="01.jpg" alt="Image 1">
+    <img src="02.jpg" alt="Image 2">
+    <img src="03.jpg" alt="Image 3">
+    <img src="04.jpg" alt="Image 4">
+</div>
+
+<div class="footer">
+    技术支持联系方式: support@example.com
+</div>
+
 </body>
 </html>
